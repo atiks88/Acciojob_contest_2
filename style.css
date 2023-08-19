@@ -1,0 +1,170 @@
+@@ -0,0 +1,158 @@
+/*google font import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+/* unversal elements*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', 'cursive';
+}
+
+body {
+    background-size: cover;
+    background-image: url('wallpaperflare.com_wallpaper\ \(5\).jpg');
+   
+
+}
+
+
+/* Navigation Bar */
+
+#nav-container {
+    filter: blur(1px);
+    display: flex;
+    background-color: rgb(171,175,179);
+    color: #f1efee;
+    height: 80px;
+    justify-content: space-between;
+}
+
+#nav-img-container {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+#nav-img {
+    width: 60px;
+    height: 60px;
+}
+
+#nav-img-text {
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+#nav-elements>ul>li,
+#nav-elements>ul>li>a {
+    text-decoration: none;
+    color: rgb(37,39,40);
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#nav-elements>ul>li>a:hover {
+    color: blue;
+}
+
+#nav-elements {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    align-self: auto;
+}
+
+
+/* Books */
+
+.books {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.table-main {
+    border-color: aqua;
+    background-size: cover;
+    background-image: url('wallpaperflare.com_wallpaper\ \(5\).jpg'); width:auto;
+    background-repeat: no-repeat;
+    filter: 10px;
+    display: inline-block;
+    width: 60%;
+    padding: 18px;
+    align-items: center;
+    height: 100%;
+    background-color:whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px 1px #b7b5b4;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border-radius: 20%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.td-1 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.td-2 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.td-3 {
+    width: 30vw;
+    padding: 5px;
+}
+
+.td-4 {
+    width: 15vw;
+    padding: 5px;
+}
+
+.td-5 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.t {
+    padding-inline: 20px;
+    padding-bottom: 10px;
+}
+
+th {
+    text-align: left;
+    padding-left: 5px;
+}
+
+input {
+    border-radius: 50px;
+    width: 100%;
+    height: 25px;
+}
+
+#regbtn {
+    border-radius: 50px;
+    color:black ;
+    margin-top: 25px;
+    height: 30px;
+}
+
+.reg {
+    border-radius: 25%;
+    height: 100%;
+    padding-bottom: 55px;
+}
